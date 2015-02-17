@@ -1,0 +1,22 @@
+{
+  "name": "journster-contrib-bootstrap",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Journster/journster-contrib-bootstrap",
+  "authors": [
+    "Jacob Friis Saxberg <jacob@journster.com>"
+  ],
+  "description": "Static website via cms.journster.com",
+  "keywords": ["journster", "cms", "bootstrap"],
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".tmp"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.x"
+  }
+}

@@ -1,0 +1,24 @@
+---
+brand: Ace
+subtitle: inspired by Ace Hotel, New York
+---
+<!doctype html>
+<html lang="eng">
+<head>
+  <title>{{#if title}}{{ title }} | {{/if}}{{ brand }}</title>
+  <link rel="stylesheet" href="lib/the.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header class="page-header">
+  <h1 class="text-center">
+    <a href="./" class="text-muted">{{ brand }}</a>
+    <small>{{ subtitle }}</small>
+  </h1>
+</header>
+
+{{ body }}
+
+</body>
+</html>

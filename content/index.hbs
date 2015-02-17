@@ -1,0 +1,21 @@
+---
+lead: markdown/index-lead.md
+content: markdown/index-body.md
+---
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-6">
+      <img src="{{ assets }}/{{ index.main-image }}" class="img-responsive img-thumbnail" alt="{{ index.main-image }}">
+    </div>
+    <div class="col-md-6">
+      {{> menu }}
+      {{{ md lead }}}
+    </div>
+  </div>
+  
+  <section>
+    {{{ md content }}}
+  </section>
+
+</div>
